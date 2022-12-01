@@ -10,7 +10,7 @@ function Navigation() {
         expand='md' collapseOnSelect>
         <Navbar.Brand href='/'>
         <img src={logo} width='50px' alt="logo"/>
-        Ai Comanager
+        
         </Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse>

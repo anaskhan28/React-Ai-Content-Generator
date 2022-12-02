@@ -6,7 +6,8 @@ import ColdEmails from './components/ColdEmails';
 import Tweets from './components/Tweets';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config()
 
 function App() {
   return (

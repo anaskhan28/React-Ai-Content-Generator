@@ -3,7 +3,8 @@ import {Container, Form, Button, Card} from 'react-bootstrap';
 import {Configuration, OpenAIApi} from 'openai';
 import {AiFillShopping} from 'react-icons/ai'
 import {AiOutlineDoubleRight} from 'react-icons/ai'
-
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config()
 class ProductDescription extends Component {
   constructor(){
   super()

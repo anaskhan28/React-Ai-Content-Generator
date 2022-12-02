@@ -2,7 +2,8 @@ import React from 'react';
 import logo from '../images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from 'react-bootstrap';
-
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config()
 function Navigation() {
   return (
     <div>

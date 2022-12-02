@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Container, Form, Button, Card} from 'react-bootstrap';
 import {Configuration, OpenAIApi} from 'openai';
-
-
+import {AiFillMail} from 'react-icons/ai';
+import {AiOutlineDoubleRight} from 'react-icons/ai'
 class ColdEmails extends Component {
   constructor(){
   super()
@@ -54,7 +54,7 @@ onFormSubmit = e => {
     <Container>
       <br/>
       <br/>
-      <h1>🤯 Generate Cold Emails</h1>
+      <h1><AiFillMail className='text-primary m-2 '/> Generate Cold Emails</h1>
       <br/>
       <span>Generate Emails perfect for marketing agents or comapanies who need fresh ideas daily on any topic</span>
           <br/>
@@ -72,7 +72,7 @@ onFormSubmit = e => {
           </Form.Group>
 
           <Button variant='primary' size='lg' type='submit'>
-          🥸 Get AI Suggestions</Button>
+          <AiOutlineDoubleRight className=' m-2 '/> Get AI Suggestions</Button>
           </Form>
           <br/>
           <br/>

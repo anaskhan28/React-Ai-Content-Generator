@@ -1,23 +1,27 @@
 import React from 'react'
+
 import Display from './Display'
 import {Container, Row, Col, Carousel} from 'react-bootstrap';
 import img from '../images/img.png'
+
 function Home() {
+ 
   return (
-    <div>
-      <Container>
-        <Carousel>
+    <div >
+      <Container >
+        <Carousel className=' btn btn-outline-primary m-4'>
+          <Carousel.Item>
+          <img className='d-block w-100' src={img}  alt="Ai"/>
+          </Carousel.Item>
           <Carousel.Item>
           <img className='d-block w-100' src={img}  alt="Ai"/>
           </Carousel.Item>
         </Carousel>
-        <br/>
-        <br/>
+        
         <h1 className='d-flex justify-content-center'>Create Content super fast with AI 🚀</h1>
-        <p className='d-flex justify-content-center'>Start by picking any of the use-cases below to start generating AI content</p>
-        <br/>
-        <br/>
-        <Row>
+        <p className='d-flex justify-content-center '>Start by picking any of the use-cases below to start generating AI content</p>
+       
+        <Row className='mt-4'>
           <Col>
           <Display 
           header=" Product Descriptions"

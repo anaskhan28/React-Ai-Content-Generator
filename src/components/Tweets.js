@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Container, Form, Button, Card} from 'react-bootstrap';
 import {Configuration, OpenAIApi} from 'openai';
-
-
+import {AiOutlineTwitter} from 'react-icons/ai'
+import {AiOutlineDoubleRight} from 'react-icons/ai'
 class Tweets extends Component {
   constructor(){
   super()
@@ -54,7 +54,7 @@ onFormSubmit = e => {
     <Container>
       <br/>
       <br/>
-      <h1>🕊️ Generate Tweets</h1>
+      <h1><AiOutlineTwitter className='text-primary m-2 '/> Generate Tweets</h1>
       <br/>
       <span>Generate tweets on any topic and be cool</span>
           <br/>
@@ -72,7 +72,7 @@ onFormSubmit = e => {
           </Form.Group>
 
           <Button variant='primary' size='lg' type='submit'>
-          🥸 Get AI Suggestions</Button>
+          <AiOutlineDoubleRight className=' m-2 '/> Get AI Suggestions</Button>
           </Form>
           <br/>
           <br/>

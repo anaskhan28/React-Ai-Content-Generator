@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import {Container, Form, Button, Card} from 'react-bootstrap';
 import {Configuration, OpenAIApi} from 'openai';
-
+import {AiFillShopping} from 'react-icons/ai'
+import {AiOutlineDoubleRight} from 'react-icons/ai'
 
 class ProductDescription extends Component {
   constructor(){
@@ -54,7 +55,7 @@ onFormSubmit = e => {
     <Container>
       <br/>
       <br/>
-      <h1>🎀Generate Product Description</h1>
+      <h1><AiFillShopping className='text-primary m-2 '/>Generate Product Description</h1>
       <br/>
       <span>Generate product descriptions for any types of product, 
           simply enter the name and product description</span>
@@ -73,7 +74,7 @@ onFormSubmit = e => {
           </Form.Group>
 
           <Button variant='primary' size='lg' type='submit'>
-          🥸 Get AI Suggestions</Button>
+          <AiOutlineDoubleRight className=' m-2 '/> Get AI Suggestions</Button>
           </Form>
           <br/>
           <br/>

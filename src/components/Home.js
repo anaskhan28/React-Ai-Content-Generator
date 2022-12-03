@@ -17,7 +17,7 @@ function Home() {
           </Carousel.Item>
         </Carousel>
         
-        <h1 className='d-flex justify-content-center'>Create Content super fast with AI 🚀</h1>
+        <h1 className='d-flex justify-content-center'>Create Content super fast with AI <span role='img' aria-label='Rocket'>🚀</span></h1>
         <p className='d-flex justify-content-center '>Start by picking any of the use-cases below to start generating AI content</p>
        
         <Row className='mt-4'>

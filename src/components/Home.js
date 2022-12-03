@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Display from './Display'
 import {Container, Row, Col, Carousel} from 'react-bootstrap';
 import img from '../images/img.png'
@@ -25,7 +24,7 @@ function Home() {
           <Col>
           <Display 
           header=" Product Descriptions"
-          title="🎀 Generate Product Descriptions"
+          title="🎀 Generate Product Descriptions" 
           text="Generate product descriptions for any types of product, 
           simply enter the name and product description"
           theLink="/product-description"/>
